@@ -3,5 +3,5 @@ CC=gcc
 SRC=helloworld.m
 OBJ=helloworld
 
-All: 
-	$(CC) $(CFLAGS) $(SRC) -o $(OBJ)
+all: 
+	$(CC) -o $(OBJ) $(SRC) $(CFLAGS)
