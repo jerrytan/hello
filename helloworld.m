@@ -2,10 +2,10 @@
 
 int main(int argc, const char *argv[])
 {
-        NSAutoreleasePool *pool = [[NSAutoreleasePool alloc]init];
+        //NSAutoreleasePool *pool = [[NSAutoreleasePool alloc]init];
 
 	NSLog(@"Hello, World");
 
-        [pool drain];
+        //[pool drain];
         return 0;
 }
